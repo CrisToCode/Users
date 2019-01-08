@@ -32,6 +32,10 @@ Request example:
   salary: 3000
 }
 
+Error should be returned when:
+
+- User with the given firstName and lastName already exists in file.
+
 Remove
 --------------
 
@@ -39,6 +43,11 @@ Remove user data from the file using key comming as a request parameter.
 
 **endpoint**
 /user/{key}
+
+Error should be returned when:
+
+- key has more than 8 characters
+- User with the given key doesn't exist
 
 Search
 --------------
@@ -55,3 +64,9 @@ Get user data by key.
   position: "Developer",
   salary: 3000
 }
+
+
+Error should be returned when:
+
+- key has more than 8 characters
+- User with the given key doesn't exist
