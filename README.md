@@ -22,7 +22,9 @@ firstName, lastName, position and salary - request body - json format.
 Request example:
 
 **endpoint:**
+```
 /user
+```
 
 **Request body:**
 ```
@@ -43,7 +45,9 @@ Remove
 Remove user data from the file using key coming as a request parameter.
 
 **endpoint**
+```
 /user/{key}
+```
 
 Error should be returned when:
 
@@ -56,7 +60,9 @@ Search by key
 Get user data by key.
 
 **endpoint**
+```
 /user/{key}
+```
 
 **Response example:**
 ```
@@ -79,7 +85,9 @@ Search by salary
 Get all users with salary higher than given in the request:
 
 **endpoint**
+```
 /user/?salary=2000
+```
 
 **Response example:**
 ```
