@@ -6,7 +6,8 @@ Service has to provide functions to insert, remove and search users.
 
 Model
 --------------
-USER
+**USER**
+
 key;firstName;lastName;position;salary
 
 User data should be stored in a file. (file path can be hardcoded)
@@ -20,10 +21,10 @@ firstName, lastName, position and salary - request body - json format.
 
 Request example:
 
-endpoint:
+**endpoint:**
 /user
 
-Request body:
+**Request body:**
 {
   firstName: "Jan",
   lastName: "Kowalski",
@@ -36,7 +37,7 @@ Remove
 
 Remove user data from the file using key comming as a request parameter.
 
-endpoint
+**endpoint**
 /user/{key}
 
 Search
@@ -44,10 +45,10 @@ Search
 
 Get user data by key.
 
-endpoint
+**endpoint**
 /user/{key}
 
-Response example:
+**Response example:**
 {
   firstName: "Jan",
   lastName: "Kowalski",
