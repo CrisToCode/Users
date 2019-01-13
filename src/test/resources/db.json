@@ -1,0 +1,14 @@
+[
+  {
+    "firstName": "Jan",
+    "lastName": "Kowalski",
+    "position": "Developer",
+    "salary": 32434.33
+  },
+  {
+    "firstName": "Janina",
+    "lastName": "Kowalska",
+    "position": "Developer",
+    "salary": 3434.33
+  }
+]

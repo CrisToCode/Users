@@ -1,0 +1,23 @@
+[
+  {
+    "key": "j24h4gx9",
+    "firstName": "Andrzej",
+    "lastName": "Berensztajn",
+    "position": "football player",
+    "salary": 51999
+  },
+  {
+    "key": "9LPnEsDQ",
+    "firstName": "Maciej",
+    "lastName": "Banasiak",
+    "position": "Worker",
+    "salary": 1800
+  },
+  {
+    "key": "L0FxgIMX",
+    "firstName": "Milena",
+    "lastName": "Kowalska",
+    "position": "sales manager",
+    "salary": 4650
+  }
+]
